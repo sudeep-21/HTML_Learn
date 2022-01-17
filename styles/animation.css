@@ -1,0 +1,24 @@
+body {
+    padding: 200px;
+}
+
+.main {
+    width: 300px;
+    outline: solid;
+    height: 100px;
+}
+
+.main:hover {
+    animation-name: border;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes border {
+    0% {margin-left: 100px; background-color: red;}
+    20% {margin-top: 100px; background-color: blue;}
+    40% {margin-right: 100px; background-color: lime;}
+    60% {margin-left: 100px; background-color: yellow;}
+    80% {margin-bottom: 100px; background-color: pink;}
+    100% {margin-right: 100px; background-color: orange;}
+}

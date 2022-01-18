@@ -6,9 +6,6 @@ body {
     width: 300px;
     outline: solid;
     height: 100px;
-}
-
-.main {
     animation-name: border;
     animation-duration: 5s;
     animation-iteration-count: 1;
